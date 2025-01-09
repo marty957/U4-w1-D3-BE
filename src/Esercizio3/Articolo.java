@@ -15,6 +15,15 @@ public class Articolo {
 
     }
 
-    public static
+    public String getArticle(Articolo a){
+        return a.descrizioneArticolo;
+    }
+    public int getArticleCode(Articolo a){
+        return a.codiceArticolo;
+    }
+    public int getArticlePrice(Articolo a){
+        return a.prezzo;
+    }
+
 
 }

@@ -13,6 +13,11 @@ public class Cliente {
         this.email=email;
         this.dataIscrizione=dataIscrizione;
     }
+    public void getClient(String nome){
+        if (nome.equals(this.nomeCognome)) {
+            System.out.println(this.nomeCognome);
 
+        }
+};
 
 }
